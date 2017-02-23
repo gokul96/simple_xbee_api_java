@@ -1,5 +1,5 @@
 # simple_xbee_api_java
-[[W.I.P]] using this to generate byte arrays of frames ready to transmit.
+[[W.I.P]] using this to generate byte arrays of frames ready to transmit via Xbees on a serial port or such in API mode
 
 >I would love contributions to this project guidelines follow
 
