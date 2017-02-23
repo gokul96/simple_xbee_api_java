@@ -2,6 +2,7 @@
 [[W.I.P]] using this to generate byte arrays of frames ready to transmit.
 
 >I would love contributions to this project guidelines follow
+
 Functions only
 Keep it abstract and modular should be easy for integration into exisitng code
 Must keep it simple and easy to understand
