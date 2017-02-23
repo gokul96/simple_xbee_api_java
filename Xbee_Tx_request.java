@@ -34,4 +34,4 @@ static byte[] frame_make(byte[] address, byte data[])
 		cs = (byte)((-1)-cs);		//checksum = 0xFF-cs, 0xFF is -1 as a signed int
 		frame[i]=cs;				//put frame checksum in its place
 		return frame;				//return frame
-}
+} // copy to class you wish to call from
