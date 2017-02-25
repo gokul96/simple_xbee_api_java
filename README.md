@@ -8,3 +8,7 @@ Keep it abstract and modular should be easy for integration into exisitng code
 Must keep it simple and easy to understand
 
 Xbee_tx_request - static function, copy into your main class or whichever class you wish to call from.
+written only for sending frames not for rx.
+
+remember to read from serial buffer after sending frame if using ACK enabled frame ID
+will upload RX frame decoder function once im done with it
