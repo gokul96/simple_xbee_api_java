@@ -12,7 +12,7 @@ static byte[] frame_make(byte[] address, byte data[])
 		frame[i++]=(byte)0x00; 		//frame length high (not used)
 		frame[i++]=(byte)len;		//frame length low
 		frame[i++]=(byte)0x10;		//frame type 0x10 - Tx req 64bit address
-		frame[i++]=(byte)0x01;		//frame ID
+		frame[i++]=(byte)0x01;		//frame ID (oxo1-disable retry, 0x00 - disable ACK)
 		
 					
 		for (j=0; j<8; j++)
